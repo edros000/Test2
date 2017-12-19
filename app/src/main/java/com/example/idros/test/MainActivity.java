@@ -52,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent=new Intent(MainActivity.this,Main2Activity.class);
                         intent.putExtra("name",et1.getText().toString());
                         intent.putExtra("lastName",et2.getText().toString());
-                        intent.putExtra("Email",et1.getText().toString());
-                        intent.putExtra("phone",et2.getText().toString());
-                        intent.putExtra("username",et3.getText().toString());
-                        intent.putExtra("passwd",et3.getText().toString());
+                        intent.putExtra("Email",et3.getText().toString());
+                        intent.putExtra("phone",et4.getText().toString());
+                        intent.putExtra("username",et5.getText().toString());
+                        intent.putExtra("passwd",et6.getText().toString());
                         startActivity(intent);}
                 }catch (Exception e){}
 
